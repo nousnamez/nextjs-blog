@@ -1,10 +1,12 @@
 import './App.css';
+import {BrowserRouter as Router} from 'react-router-dom'
+import Home from './pages';
 
 function App() {
   return (
-    <div className="App">
-      <hi>What's upp</hi>
-    </div>
+    <Router>
+      <Home />
+    </Router>
   );
 }
 
